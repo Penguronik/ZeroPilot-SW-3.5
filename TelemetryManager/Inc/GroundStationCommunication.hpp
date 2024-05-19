@@ -25,6 +25,9 @@
  * implementation.
  */
 class GroundStationCommunication {
+   private:
+    internalBuffer_[RFD900_BUF_SIZE]; // do i do RFD900_BUF_SIZE or same length as length in the constructor, also curious why constructor doesn't have 
+
    public:
     /**
      * @brief Construct a new Ground Station Communication object. Do whatever needs to be done
